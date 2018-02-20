@@ -10,6 +10,7 @@ import { MineCoinsComponent } from './mine-coins/mine-coins.component';
 import { BuyCoinsComponent } from './buy-coins/buy-coins.component';
 import { SellCoinsComponent } from './sell-coins/sell-coins.component';
 import { BrowseLedgerComponent } from './browse-ledger/browse-ledger.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { BrowseLedgerComponent } from './browse-ledger/browse-ledger.component';
     MineCoinsComponent,
     BuyCoinsComponent,
     SellCoinsComponent,
-    BrowseLedgerComponent
+    BrowseLedgerComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
